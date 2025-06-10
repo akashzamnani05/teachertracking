@@ -1,0 +1,64 @@
+Making request: POST https://oauth2.googleapis.com/token
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/508/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.123.38, Time 13:36:43
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/510/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.122.189, Time 13:37:03
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/502/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.122.188, Time 13:38:12
+Resetting dropped connection: faculty-tracker-30135-default-rtdb.firebaseio.com
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/502/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.122.188, Time 13:42:15
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/varda%20gotmare/508/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'varda gotmare' detected on Camera #10.10.123.38, Time 13:42:58
+Making request: POST https://oauth2.googleapis.com/token
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/508/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.123.38, Time 15:20:12
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/510/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.122.189, Time 15:20:28
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Atul%20JKathole/502/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Atul JKathole' detected on Camera #10.10.122.188, Time 15:20:56
+Resetting dropped connection: faculty-tracker-30135-default-rtdb.firebaseio.com
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/swati%20khairnar/508/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'swati khairnar' detected on Camera #10.10.123.38, Time 15:24:21
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/varda%20gotmare/508/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'varda gotmare' detected on Camera #10.10.123.38, Time 15:24:22
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/swati%20khairnar/510/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'swati khairnar' detected on Camera #10.10.122.189, Time 15:24:42
+Making request: POST https://oauth2.googleapis.com/token
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Making request: POST https://oauth2.googleapis.com/token
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Suvarna%20Patil/505/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Suvarna Patil' detected on Camera #10.10.125.75, Time 21:51:00
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/11" 200 None
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Suvarna%20Patil/508/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Suvarna Patil' detected on Camera #10.10.123.38, Time 21:51:01
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Suvarna%20Patil/510/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Suvarna Patil' detected on Camera #10.10.122.189, Time 21:51:00
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Suvarna%20Patil/502/20250609.json HTTP/11" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'Suvarna Patil' detected on Camera #10.10.122.188, Time 21:51:01
