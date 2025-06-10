@@ -49,5 +49,12 @@ CONFIG = {
     "max_clusters_per_person": 3,
     "frame_skip": 2,
     "person_detection_timeout": 60,
-    "logfile": "comp.log"
+    "logfile": "comp.log",
+    "postgres": {
+    "host": "localhost",
+    "database": "postgres",
+    "user": "postgres",
+    "password": "Akash@2003",
+    "port": 5432
+}
 }

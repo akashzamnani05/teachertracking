@@ -19,6 +19,7 @@ from config import CONFIG
 from data_handler import DataHandler
 from training import Trainer
 from camera import CameraManager
+from postgress_logger import PostgresLogger
 
 cred = credentials.Certificate('faculty-tracker-30135-firebase-adminsdk-j1nux-d744591934.json')
 firebase_admin.initialize_app(cred, {
@@ -43,6 +44,9 @@ class AdvancedFaceRecognition:
         self.detected_persons = defaultdict(dict)
         
         self.camera_manager = CameraManager(CONFIG, self.process_frame)
+
+        self.pg_logger = PostgresLogger()
+
         
         logging.basicConfig(filename=CONFIG['logfile'], level=logging.DEBUG, format='%(message)s')
         atexit.register(self.on_exit)
@@ -87,6 +91,14 @@ class AdvancedFaceRecognition:
         faculty_ref.child(safe_name).child(safe_ip).child(today).push({
             'time': datetime.fromtimestamp(current_time).strftime('%H:%M:%S')
         })
+
+        ##postgress 
+        self.pg_logger.log_detection(
+            person_name,
+            CONFIG['cameras'][camera_idx]['hikvision_ip'],
+            CONFIG['cameras'][camera_idx]['classroom']
+        )
+
         logging.info("Saved logs on database")
         logging.info(f"  DETECTION: COMPUTER DEPARTMENT Person '{person_name}' detected on Camera #{CONFIG['cameras'][camera_idx]['hikvision_ip']}, Time {datetime.fromtimestamp(current_time).strftime('%H:%M:%S')}")
         print(f"DETECTION: Person '{person_name}' detected on Camera #{camera_idx+1}, Time {datetime.fromtimestamp(current_time).strftime('%H:%M:%S')}")
