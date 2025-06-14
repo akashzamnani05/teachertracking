@@ -1,6 +1,7 @@
 import cv2
 import threading
 from queue import Queue
+import time
 
 class CameraManager:
     def __init__(self, config, process_frame_func):

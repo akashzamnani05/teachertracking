@@ -18,7 +18,7 @@ CONFIG = {
             "hikvision_stream": "Streaming/Channels/101",
         },
         {
-            "hikvision_ip": "10.10.125.75",
+            "hikvision_ip": "10.10.122.187",
             "hikvision_port": 554,
             "classroom": "505",
             "hikvision_user": "DYPDPU",
@@ -42,7 +42,7 @@ CONFIG = {
             "hikvision_stream": "Streaming/Channels/101",
         }
     ],
-    "face_size": (320, 320),
+    "face_size": (640, 640),
     "detection_scales": [1.0],
     "augmentation_factor": 15,
     "display_resolution": (1980, 1080),
@@ -51,10 +51,10 @@ CONFIG = {
     "person_detection_timeout": 60,
     "logfile": "comp.log",
     "postgres": {
-    "host": "localhost",
-    "database": "postgres",
-    "user": "postgres",
-    "password": "Akash@2003",
-    "port": 5432
-}
+        "host": "localhost",
+        "database": "postgres",
+        "user": "postgres",
+        "password": "Akash@2003",
+        "port": 5432
+    }
 }

@@ -5,6 +5,7 @@ from sklearn.preprocessing import normalize
 from sklearn.cluster import DBSCAN
 import random
 from collections import defaultdict
+import faiss
 
 class Trainer:
     def __init__(self, app, config):
@@ -112,6 +113,7 @@ class Trainer:
         
         known_labels = []
         known_embeddings = []
+        all_centroids = []
         
         for label, embeddings in label_embeddings.items():
             if len(embeddings) < 3:
@@ -139,7 +141,26 @@ class Trainer:
                 if len(cluster_embeddings) >= 3:
                     centroid = np.mean(cluster_embeddings, axis=0)
                     normalized_centroid = normalize(centroid.reshape(1, -1)).flatten()
+                    all_centroids.append(normalized_centroid.astype('float32'))
                     known_embeddings.append(normalized_centroid)
                     known_labels.append(label)
+        if not all_centroids:
+            print("No embeddings available for FAISS indexing.")
+            return None
+
+        # Build FAISS index
+        d = all_centroids[0].shape[0]  # dimensionality
+        index = faiss.IndexFlatIP(d)  # use cosine similarity (requires normalized vectors)
+        index.add(np.array(all_centroids, dtype='float32'))
+
+        # Save for later use
+        self.faiss_index = index
+        self.faiss_labels = known_labels  # Index i corresponds to known_labels[i]
+
+        print(f"Training complete: {len(all_centroids)} embeddings added to FAISS index.")
+
+        faiss.write_index(self.faiss_index, "faiss_index.idx")
+
+        return index,known_labels
         
-        return known_embeddings, known_labels
+        # return known_embeddings, known_labels

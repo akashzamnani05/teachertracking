@@ -20,6 +20,7 @@ class PostgresLogger:
             (person_name, camera_ip, classroom, now)
         )
         self.conn.commit()
+        
     
     def close(self):
         self.cursor.close()

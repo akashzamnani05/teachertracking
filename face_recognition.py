@@ -8,6 +8,7 @@ from firebase_admin import credentials, db
 import firebase_admin
 from collections import defaultdict, deque
 from sklearn.preprocessing import normalize
+import faiss
 import uuid
 import atexit
 import signal
@@ -36,6 +37,9 @@ class AdvancedFaceRecognition:
         
         self.data_handler = DataHandler(CONFIG["data_file"])
         self.data_handler.load_data()
+
+        
+
         
         self.trainer = Trainer(self.app, CONFIG)
         
@@ -104,7 +108,7 @@ class AdvancedFaceRecognition:
         print(f"DETECTION: Person '{person_name}' detected on Camera #{camera_idx+1}, Time {datetime.fromtimestamp(current_time).strftime('%H:%M:%S')}")
         return True
 
-    def process_frame(self, frame, camera_idx):
+    def process_frame(self, frame, camera_idx): 
         if frame is None:
             return None
             
@@ -126,10 +130,16 @@ class AdvancedFaceRecognition:
         for face in faces:
             embedding = normalize(face.embedding.reshape(1, -1)).flatten()
             
-            if len(self.data_handler.known_embeddings) > 0:
-                similarities = np.dot(self.data_handler.known_embeddings, embedding)
-                best_match_idx = np.argmax(similarities)
-                max_similarity = similarities[best_match_idx]
+            # if len(self.data_handler.known_embeddings) > 0:
+            #     similarities = np.dot(self.data_handler.known_embeddings, embedding)
+            #     best_match_idx = np.argmax(similarities)
+            #     max_similarity = similarities[best_match_idx]
+            #     dynamic_threshold = min(CONFIG["similarity_threshold"] + 0.1 * (max_similarity - 0.5), 0.55)
+            if hasattr(self, 'faiss_index') and self.faiss_index.ntotal > 0:
+                embedding_f32 = embedding.astype('float32').reshape(1, -1)
+                scores, indices = self.faiss_index.search(embedding_f32, 1)  # top-1
+                max_similarity = scores[0][0]
+                best_match_idx = indices[0][0]
                 dynamic_threshold = min(CONFIG["similarity_threshold"] + 0.1 * (max_similarity - 0.5), 0.55)
             else:
                 max_similarity = 0
@@ -141,11 +151,11 @@ class AdvancedFaceRecognition:
             
             track = self.face_tracks[camera_idx][face_id]
             track['embeddings'].append(embedding)
-            if len(self.data_handler.known_embeddings) > 0:
-                track['scores'].append(max_similarity)
-                track['labels'].append(best_match_idx)
+            # if len(self.data_handler.known_embeddings) > 0:
+            track['scores'].append(max_similarity)
+            track['labels'].append(best_match_idx)
             
-            if len(track['scores']) >= CONFIG["min_frames_for_recognition"] and len(self.data_handler.known_embeddings) > 0:
+            if len(track['scores']) >= CONFIG["min_frames_for_recognition"] :
                 weights = np.linspace(0.5, 1.0, len(track['scores']))
                 weights /= weights.sum()
                 avg_sim = np.average(track['scores'], weights=weights)
@@ -222,9 +232,16 @@ class AdvancedFaceRecognition:
         print("Starting multi-camera face recognition system...")
         print(f"Person detection timeout set to {CONFIG['person_detection_timeout']} seconds per camera")
         
+        
         if not self.data_handler.known_labels:
             print("No known faces found - running training")
             self.train_model()
+            
+        if os.path.exists('faiss_index.idx'):
+            self.faiss_index = faiss.read_index('faiss_index.idx')
+        else:
+            self.train_model()
+
         
         self.camera_manager.start_cameras()
         

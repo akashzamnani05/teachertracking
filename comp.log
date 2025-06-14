@@ -62,3 +62,313 @@ Saved logs on database
 https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/Suvarna%20Patil/502/20250609.json HTTP/11" 200 31
 Saved logs on database
   DETECTION: COMPUTER DEPARTMENT Person 'Suvarna Patil' detected on Camera #10.10.122.188, Time 21:51:01
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+Starting new HTTPS connection (3): oauth2.googleapis.com:443
+Starting new HTTPS connection (4): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+Starting new HTTPS connection (4): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250612.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250612.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250612.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250612.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 23:05:27
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 23:05:27
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 23:05:27
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.125.75, Time 23:05:27
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+Starting new HTTPS connection (3): oauth2.googleapis.com:443
+Starting new HTTPS connection (4): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (4): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250612.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250612.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250612.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250612.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 23:05:51
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 23:05:51
+Saved logs on database
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.125.75, Time 23:05:51
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 23:05:51
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+Starting new HTTPS connection (3): oauth2.googleapis.com:443
+Starting new HTTPS connection (4): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (4): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 13:48:47
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 13:48:47
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.125.75, Time 13:48:47
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 13:48:47
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:43:18
+Resetting dropped connection: faculty-tracker-30135-default-rtdb.firebaseio.com
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/502/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.188, Time 16:44:41
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/510/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.189, Time 16:45:06
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:45:25
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:46:09
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:47:50
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:47:55
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/508/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.123.38, Time 16:49:02
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/510/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.189, Time 16:49:11
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001542-Dr_%20Atul%20Baliram%20Kathole/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001542-Dr. Atul Baliram Kathole' detected on Camera #10.10.122.187, Time 16:49:40
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001836-Mrs_%20Pranal%20Abhijeet%20Kakde/508/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001836-Mrs. Pranal Abhijeet Kakde' detected on Camera #10.10.123.38, Time 16:49:47
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:49:50
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001548-Mrs_%20Suvarna%20Ganesh%20Patil/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001548-Mrs. Suvarna Ganesh Patil' detected on Camera #10.10.122.187, Time 16:50:30
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:50:55
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510000101-Dr_%20Rachna%20Krishnaji%20Somkunwar/508/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510000101-Dr. Rachna Krishnaji Somkunwar' detected on Camera #10.10.123.38, Time 16:51:13
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:51:31
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:52:13
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001542-Dr_%20Atul%20Baliram%20Kathole/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001542-Dr. Atul Baliram Kathole' detected on Camera #10.10.122.187, Time 16:52:15
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:52:25
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001803-Ms_%20Dipika%20baburao%20patil/508/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001803-Ms. Dipika baburao patil' detected on Camera #10.10.123.38, Time 16:53:07
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:53:16
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:53:58
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:54:11
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001542-Dr_%20Atul%20Baliram%20Kathole/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001542-Dr. Atul Baliram Kathole' detected on Camera #10.10.122.187, Time 16:54:24
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001548-Mrs_%20Suvarna%20Ganesh%20Patil/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001548-Mrs. Suvarna Ganesh Patil' detected on Camera #10.10.122.187, Time 16:54:38
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:54:59
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:55:11
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:56:04
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:57:14
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:58:14
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 16:58:21
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001542-Dr_%20Atul%20Baliram%20Kathole/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001542-Dr. Atul Baliram Kathole' detected on Camera #10.10.122.187, Time 16:58:58
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 16:59:15
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001542-Dr_%20Atul%20Baliram%20Kathole/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001542-Dr. Atul Baliram Kathole' detected on Camera #10.10.122.187, Time 17:00:07
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 17:00:23
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 17:00:24
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001542-Dr_%20Atul%20Baliram%20Kathole/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001542-Dr. Atul Baliram Kathole' detected on Camera #10.10.122.187, Time 17:01:12
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/510001548-Mrs_%20Suvarna%20Ganesh%20Patil/508/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person '510001548-Mrs. Suvarna Ganesh Patil' detected on Camera #10.10.123.38, Time 17:02:42
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 17:02:47
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 17:03:54
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 17:04:26
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 17:05:02
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250613.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 17:05:38
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+Starting new HTTPS connection (3): oauth2.googleapis.com:443
+Starting new HTTPS connection (4): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (4): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 15:13:48
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 15:13:48
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 15:13:48
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 15:13:48
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+Starting new HTTPS connection (3): oauth2.googleapis.com:443
+Starting new HTTPS connection (4): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (4): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 15:14:35
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 15:14:35
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 15:14:35
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 15:14:35
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/deepak%20zamnani/505/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'deepak zamnani' detected on Camera #10.10.122.187, Time 15:15:06
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 15:15:35
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 15:15:35
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 15:15:35
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 15:15:35
+Starting new HTTPS connection (1): oauth2.googleapis.com:443
+Starting new HTTPS connection (2): oauth2.googleapis.com:443
+Starting new HTTPS connection (3): oauth2.googleapis.com:443
+Starting new HTTPS connection (4): oauth2.googleapis.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (1): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+Starting new HTTPS connection (2): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+Starting new HTTPS connection (3): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+Starting new HTTPS connection (4): faculty-tracker-30135-default-rtdb.firebaseio.com:443
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/502/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/505/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/510/20250614.json HTTP/1.1" 200 31
+https://faculty-tracker-30135-default-rtdb.firebaseio.com:443 "POST /faculty_log/akash%20zamnani/508/20250614.json HTTP/1.1" 200 31
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.188, Time 15:20:26
+Saved logs on database
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.123.38, Time 15:20:26
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.189, Time 15:20:26
+Saved logs on database
+  DETECTION: COMPUTER DEPARTMENT Person 'akash zamnani' detected on Camera #10.10.122.187, Time 15:20:26
