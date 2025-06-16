@@ -22,11 +22,7 @@ from training import Trainer
 from camera import CameraManager
 from postgress_logger import PostgresLogger
 
-cred = credentials.Certificate('faculty-tracker-30135-firebase-adminsdk-j1nux-d744591934.json')
-firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://faculty-tracker-30135-default-rtdb.firebaseio.com/'
-})
-faculty_ref = db.reference('faculty_log')
+
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 class AdvancedFaceRecognition:
@@ -92,9 +88,7 @@ class AdvancedFaceRecognition:
         
         safe_name = person_name.replace('.', '_')
         safe_ip = CONFIG['cameras'][camera_idx]['classroom'].replace('.', '_')
-        faculty_ref.child(safe_name).child(safe_ip).child(today).push({
-            'time': datetime.fromtimestamp(current_time).strftime('%H:%M:%S')
-        })
+        
 
         ##postgress 
         self.pg_logger.log_detection(
@@ -251,7 +245,7 @@ class AdvancedFaceRecognition:
         frame_width = CONFIG["display_resolution"][0] // grid_cols
         frame_height = CONFIG["display_resolution"][1] // grid_rows
         
-        cv2.namedWindow('Multi-Camera Face Recognition', cv2.WINDOW_NORMAL)
+        # cv2.namedWindow('Multi-Camera Face Recognition', cv2.WINDOW_NORMAL)
         
         fps_start = time.time()
         fps_count = 0
@@ -332,7 +326,7 @@ class AdvancedFaceRecognition:
                 cv2.putText(combined_frame, "Press 'q' to quit, 't' to retrain, 'c' to clear cache", 
                         (10, CONFIG["display_resolution"][1] - 20), 
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 1)
-                cv2.imshow('Multi-Camera Face Recognition', combined_frame)
+                # cv2.imshow('Multi-Camera Face Recognition', combined_frame)
             
             key = cv2.waitKey(1) & 0xFF
             if key == ord('q'):
@@ -346,11 +340,24 @@ class AdvancedFaceRecognition:
                 self.detected_persons.clear()
             
             time.sleep(0.01)
+
+            # ret, buffer = cv2.imencode('.jpg', combined_frame)
+            # if ret:
+            #     frame_bytes = buffer.tobytes()
+            #     # Here you can send frame_bytes to a web server or save it to a file if needed
+            #     yield (b'--frame\r\n'
+            #            b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
+            
     def stop(self):
         self.camera_manager.stop()
+
+
+if __name__ == '__main__':
+    fr = AdvancedFaceRecognition()
+    fr.run()
+    
         
         
 
-if __name__ == "__main__":
-    fr = AdvancedFaceRecognition()
-    fr.run()
+
+    

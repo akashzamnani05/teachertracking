@@ -14,7 +14,7 @@ class CameraManager:
 
     def camera_thread(self, camera_config, camera_idx, queue):
         rtsp_url = f"rtsp://{camera_config['hikvision_user']}:{camera_config['hikvision_password']}@{camera_config['hikvision_ip']}:{camera_config['hikvision_port']}/{camera_config['hikvision_stream']}"
-        cap = cv2.VideoCapture(rtsp_url) 
+        cap = cv2.VideoCapture(0) 
         
         if not cap.isOpened():
             print(f"Error: Could not open camera {camera_idx} stream")
