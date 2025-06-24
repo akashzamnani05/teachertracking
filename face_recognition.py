@@ -31,8 +31,9 @@ class AdvancedFaceRecognition:
         self.app = FaceAnalysis(name='buffalo_s', providers=['CPUExecutionProvider'])
         self.app.prepare(ctx_id=0, det_size=CONFIG["face_size"], det_thresh=0.4)
         
-        self.data_handler = DataHandler(CONFIG["data_file"])
+        self.data_handler = DataHandler(CONFIG["data_file"],CONFIG["labels_file"])
         self.data_handler.load_data()
+        self.data_handler.load_labels()
 
         
 
@@ -91,11 +92,22 @@ class AdvancedFaceRecognition:
         
 
         ##postgress 
-        self.pg_logger.log_detection(
-            person_name,
-            CONFIG['cameras'][camera_idx]['hikvision_ip'],
-            CONFIG['cameras'][camera_idx]['classroom']
-        )
+        if '-' in person_name:
+            erp_id,name=person_name.split('-',1)
+        ##postgress 
+            self.pg_logger.log_detection(
+                name,
+                erp_id,
+                CONFIG['cameras'][camera_idx]['hikvision_ip'],
+                CONFIG['cameras'][camera_idx]['classroom']
+            )
+        else:
+            self.pg_logger.log_detection(
+                person_name,
+                "No id",
+                CONFIG['cameras'][camera_idx]['hikvision_ip'],
+                CONFIG['cameras'][camera_idx]['classroom']
+            )
 
         logging.info("Saved logs on database")
         logging.info(f"  DETECTION: COMPUTER DEPARTMENT Person '{person_name}' detected on Camera #{CONFIG['cameras'][camera_idx]['hikvision_ip']}, Time {datetime.fromtimestamp(current_time).strftime('%H:%M:%S')}")
@@ -227,14 +239,13 @@ class AdvancedFaceRecognition:
         print(f"Person detection timeout set to {CONFIG['person_detection_timeout']} seconds per camera")
         
         
-        if not self.data_handler.known_labels:
+        if not self.data_handler.known_embeddings or not self.data_handler.known_labels:
             print("No known faces found - running training")
             self.train_model()
             
-        if os.path.exists('faiss_index.idx'):
-            self.faiss_index = faiss.read_index('faiss_index.idx')
-        else:
-            self.train_model()
+        
+        self.faiss_index = self.data_handler.known_embeddings
+        
 
         
         self.camera_manager.start_cameras()
@@ -326,7 +337,7 @@ class AdvancedFaceRecognition:
                 cv2.putText(combined_frame, "Press 'q' to quit, 't' to retrain, 'c' to clear cache", 
                         (10, CONFIG["display_resolution"][1] - 20), 
                         cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 1)
-                # cv2.imshow('Multi-Camera Face Recognition', combined_frame)
+                cv2.imshow('Multi-Camera Face Recognition', combined_frame)
             
             key = cv2.waitKey(1) & 0xFF
             if key == ord('q'):

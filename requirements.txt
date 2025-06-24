@@ -1,18 +1,21 @@
-Brotli          
-cryptography    
-cvlib                  
-facenet-pytorch 
-faiss-cpu       
-firebase-admin  
-grpcio-status   
-h2              
-insightface     
-notebook        
-onnxruntime    
-openpyxl        
-pip             
-psycopg2-binary 
-PySocks         
-schedule        
-tf_keras       
-tinycss2       
+# Computer Vision and Image Processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Face Recognition and Deep Learning
+insightface==0.7.3
+onnxruntime==1.16.3
+
+# Machine Learning and Data Science
+scikit-learn==1.3.0
+faiss-cpu==1.7.4
+
+# Database Connectivity
+psycopg2-binary==2.9.7
+
+# Firebase Integration
+firebase-admin==6.2.0
+
+# Core Python Libraries (usually included but ensuring compatibility)
+pickle-mixin==1.0.2
+flask
